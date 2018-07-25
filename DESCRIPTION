@@ -1,11 +1,10 @@
 Package: nbglm
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Negative binomial generalised linear model
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Skip Woolley  
+Maintainer: Skipton Woolley <skip.woolley@csiro.au>
+Description: Another version of a negative binomial GLM, gives better estimates of theta (over-dispersion) parameter compared to MASS. 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
