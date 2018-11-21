@@ -41,7 +41,7 @@ NULL
   vcov <- 0
   se <- rep(0, length(pars))
   if (est_var) {
-    calc.deriv <- function(p) {
+    calc_deriv <- function(p) {
       gradient <- rep(0, length(pars))
       ll <- .Call("Neg_Bin_Gradient", p, X, y, weights,
                   offset, gradient, PACKAGE = "nbglm")
